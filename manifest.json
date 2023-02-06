@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Greenhouse Scheduler UI fixes",
+  "version": "1.0",
+  "description": "UI tweaks to make the Greenhouse interview scheduling view usable.",
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://*.greenhouse.io/interviews/scheduler?*"
+      ]
+    }
+  ]
+}
